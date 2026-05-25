@@ -1,0 +1,13 @@
+.container{
+    width: 100%; /*para ocupar toda a tela*/
+    max-width: 124.6rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+
+    /* CONFERIR DEPOIS AS COISAS QUE COLOQUEI */
+
+
+    @media(max-width: 768px){
+        max-width: 76.8rem;
+    } 
+}

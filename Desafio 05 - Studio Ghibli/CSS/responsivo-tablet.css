@@ -1,0 +1,67 @@
+@media(max-width: 768px){
+    html{
+        background-image: url(../img/background/background-tablet.png);
+    }
+
+    header .container{
+        padding: none;
+        height: 12.8rem;
+    }
+
+    .container #logo{
+        width: 100%;
+        max-width: 13.5rem;
+        height: 6.4rem;
+        object-fit: cover;
+    }
+
+    .container .icon{
+        max-width: 3.2rem;
+        object-fit: cover;
+    }
+
+    .filme{
+        /* Só funcionou assim porque no modelo desktop ele já tem um display flex */
+        flex-direction: column-reverse;
+        align-items: center;
+
+        margin-top: 8rem;
+    }
+
+    .right img{
+        max-width: 35rem;
+        left: 0;
+        bottom: 0;
+    }
+
+    .left{
+        max-width: 44.8rem;
+        height: 38.2rem;
+        text-align: justify;
+    }
+
+    .autor-nameFilme h2{
+        font-size: 1.6rem;
+    }
+
+    .autor-nameFilme h1{
+        font-size: 4rem;
+        text-align: left;
+        line-height: 110%;
+    }
+
+    .info-filme{
+        font-size: 1.6rem;
+        line-height: 150%;
+    }
+
+    button{
+        padding: 1.4rem 3.2rem;
+        font-size: 1.8rem;
+    }
+
+    .button-assistir{
+        flex-direction: column;
+        gap: 3.2rem;
+    }
+}

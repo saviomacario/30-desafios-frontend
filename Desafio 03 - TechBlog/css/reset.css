@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+    list-style: none;
+}
+
+/* Configuração da imagem */
+img{
+    max-width: 100%;
+    display: block;
+}
+
+/* Configuração para que o tamanho da letra fique por padrão 10px */
+html{
+    font-size: 62.5%;
+}

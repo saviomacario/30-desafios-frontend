@@ -1,0 +1,65 @@
+@media (max-width: 480px){
+
+    #search{
+        max-width: 20rem;
+        font-size: 15px;
+    }
+
+    #id-logo{
+        width: 102px;
+        height: 30px;
+    }
+
+    .header-box{
+        gap: 1.5rem;
+    }
+
+    section{
+        gap: 2rem;
+        padding: 3rem 0;
+    }
+
+    .artigo-um{
+        width: 20rem;
+        padding: 40px;
+        border: 2px solid;
+        border-color: var(--laranja);
+        border-radius: 8px;
+        font-size: 20px;
+    }
+
+    .artigo-dois{
+        width: 20rem;
+        padding: 40px;
+        border: none;
+        border-radius: 8px;
+    }
+
+    .data-img > p{
+        color: var(--laranja);
+        font-size: 12px;
+    }
+    
+    .artigo-um img{
+        width: 20px;
+        height: 20px;
+    }
+
+    .artigo-dois img{
+        width: 20px;
+        height: 20px;
+    }
+
+    .info>h3{
+        font-family: 'Space Grotesk';
+        color: var(--dark-60);
+        margin-bottom: 16px;
+        font-size: 20px;
+    }
+
+    .info > p{
+        color: var(--dark-60);
+        font-size: 14px;
+    }
+
+}

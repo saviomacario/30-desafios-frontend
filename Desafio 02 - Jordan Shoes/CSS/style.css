@@ -1,0 +1,142 @@
+header{
+    width: 100%;
+    max-width: 192rem;
+    height: 6.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1{
+    font-size: 2.2rem;
+}
+
+.s-hero{
+    width: 100%;
+    max-width: 192rem;
+    height: 40rem;
+    background-image: url(../img/image-michael-jordan.jpg);
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+}
+
+.box-text{
+    width: 100%;
+    max-width: 55.7rem;
+    color: var(--dark-20);
+}
+
+.box-text p{
+    font-size: 3.2rem;
+    font-weight: 500;
+}
+
+.box-text span{
+    display: block;
+    margin-top: 2rem;
+    font-weight: 400;
+    font-size: 2.4rem;
+}
+
+.text-logo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem ;
+}
+
+.text-logo img{
+    width: 4.8rem;
+}
+
+.text-logo p{
+    font-size: 2.4rem;
+}
+
+main{
+    background-color: var(--dark-30);
+}
+
+.vitrine{
+    display: flex;
+    flex-wrap: wrap; /*permitem que os itens pulem para a linha de baixo caso não tenha mais espaço*/
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8rem;
+}
+
+.s-vendas{
+    width: 100%;
+    max-width: 121.6rem;
+    margin: 0 auto;
+    padding-top: 8rem ;
+}
+
+.box-info{
+    width: 100%;
+    max-width: 59.3rem;
+    height: 12.7rem;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 7.2rem;
+}
+
+.box-info p{
+    width: 100%;
+    max-width: 36.3rem;
+    margin: 0 auto;
+    margin-bottom: 2.4rem;
+
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+
+.box-info span{
+    font-size: 2.4rem;
+}
+
+.box-img{
+    width: 100%;
+    max-width: 38.4rem;
+    height: 20rem;
+    background-color: #F3F7FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.produto{
+    width: 100%;
+    max-width: 38.4rem;
+    height: 32.6rem;
+    display: grid;
+    flex-direction: column;
+}
+
+.descricao{
+    width: 100%;
+    max-width: 38.4rem;
+    height: 5.2rem;
+    display: grid;
+    gap: 1.2rem;
+}
+
+.descricao .text{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.descricao .text.md{
+    font-size: 1.6rem;
+    color: var(--azul);
+    font-weight: 500;
+}
+
+.produto > p{
+    font-family: "Space Grotesk";
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+}

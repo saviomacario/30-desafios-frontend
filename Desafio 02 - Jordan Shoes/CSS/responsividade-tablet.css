@@ -1,0 +1,77 @@
+/* Tentar consertar esse código para que ele não quebre em nenhum pixel da tela */
+
+@media(max-width:768px){
+
+    header{
+        height: 4.1rem;
+    }
+
+    header h1{
+        font-size: 1.6rem;
+    }
+
+    .s-hero{
+        max-width: 76.8rem;
+        height: 35rem;
+        background-image: url(../img/image-michael-jordan\ -t.jpg);
+    }
+
+    .box-text{
+        height:15.2rem;
+        padding-left: 3.2rem;
+    }
+
+    .text-logo img{
+        width: 2.4rem;
+    }
+
+    .text-logo p{
+        font-size: 1.8rem;
+    }
+
+    .box-text p{
+        font-size: 2.4rem;
+    }
+
+    .box-text span{
+        font-size: 1.8rem;
+        max-width: 40rem;
+    }
+
+    /* parte do main */
+
+    .s-vendas{
+        max-width: 70.4rem;
+        padding-top: 5.6rem ;
+    }
+
+    .vitrine{
+        gap: .2rem;
+    }
+
+    .box-info{
+        max-width: 52rem;
+        height: 8.2rem;
+        margin-bottom: 4rem;
+    }
+
+    .box-info p{
+        max-width: 52rem;
+        margin-bottom: 1.2rem;
+        font-size: 2.4rem;
+    }
+
+    .box-info span{
+        font-size: 1.6rem;
+    }
+
+    .produto{
+        max-width: 33.6rem;
+    }
+
+    .box-img{
+        max-width: 33.6rem;
+        height: 20rem;  
+    }
+
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/variaveis.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/responsivo-tablet.css">
+    <link rel="stylesheet" href="./css/responsivo-cell.css">
+    <title>Desafio 03</title>
+</head>
+
+<body>
+    <header>
+        <section class="container">
+            <div class="box-info">
+                <div class="box-text">
+                    <h2>Encontre os <span>melhores artigos</span>
+                        de programação em um só lugar
+                    </h2>
+
+                    <p>
+                        Explore o topo da programação em um só lugar! <br>
+                        Seu destino único para dicas e tendências atuais.
+                    </p>
+
+                    <input type="button" value="Buscar Artigos" id="btBuscar">
+
+                </div>
+
+                <img src="./img/person-header.png" alt="Person">
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <section class="container">
+            <div class="container-info">
+                <h3>Artigos recomendados</h3>
+
+                <div class="box-artigos">
+                    <div class="artigos">
+                        <img src="./img/info-1.png" alt="Info um">
+
+                        <div class="text">
+                            <h4>O que é linguagem de programação? Conheça as principais</h4>
+                            <p>Uma das mais populares vertentes da tecnologia da informação, a área de...</p>
+                        </div>
+                    </div>
+
+                    <div class="artigos">
+                        <img src="./img/info-2.png" alt="Info um">
+
+                        <div class="text">
+                            <h4>Python: por que a linguagem é tão usada para Data Science e finanças?</h4>
+                            <p>O mundo da programação conta com algumas opções de linguagem para...</p>
+                        </div>
+                    </div>
+
+                    <div class="artigos">
+                        <img src="./img/info-3.png" alt="Info um">
+
+                        <div class="text">
+                            <h4>GitHub tem receita de US$ 1 bilhão e 90 milhões de usuários</h4>
+                            <p>O popular serviço de repositório de código GitHub foi adquirido pela...</p>
+                        </div>
+                    </div>
+
+                    <div class="artigos">
+                        <img src="./img/image.png" alt="Info um">
+
+                        <div class="text">
+                            <h4>15 comandos no GIT que os desenvolvedores precisam saber</h4>
+                            <p>Dominar os comandos GIT é uma habilidade que se conquista com...</p>
+                        </div>
+                    </div>
+
+                    <div class="artigos">
+                        <img src="./img/image-1.png" alt="Info um">
+
+                        <div class="text">
+                            <h4>GIT e GitHub: o que são e quais as diferenças entre eles?</h4>
+                            <p>Git e GibHub são dois softwares de controle de versão essenciais para...</p>
+                        </div>
+                    </div>
+
+                    <div class="artigos">
+                        <img src="./img/image-2.png" alt="Info um">
+
+                        <div class="text">
+                            <h4>GitHub Copilot ganha integração com GPT-4 e interface conversacional</h4>
+                            <p>O GitHub Copilot, ferramenta de desenvolvimento baseada em IA...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="container">
+            <div class="box-forms">
+                <h2>Entre em contato</h2>
+
+                <div class="forms">
+                    <form>
+                        <input type="text" placeholder="Nome" id="inNome">
+                        <input type="email" placeholder="Email" id="inEmail">
+                        <input type="text" placeholder="Assunto da mensagem" id="inAssunto">
+                    </form>
+                    <input type="button" value="ENTRAR EM CONTATO" id="btEntrar">
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

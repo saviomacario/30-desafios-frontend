@@ -1,0 +1,139 @@
+html{
+    background-image: url(../img/background/background-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 17.6rem;
+}
+
+.list-social{
+    display: flex;
+}
+
+/* Dando espaço até o icone 3 */
+ul li:nth-child(-n+3){
+    margin-right: 2.4rem;
+}
+
+/* Main */
+
+.filme{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 14.4rem;
+}
+
+.left{
+    width: 100%;
+    max-width: 50.3rem;
+    display: flex;
+    flex-direction: column;
+    gap:4.8rem ;
+}
+
+.info-filme{
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+.info-filme{
+    font-family: "Archivo";
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: var(--dark-20);
+}
+
+.autor-nameFilme{
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+
+.autor-nameFilme h2{
+    font-family: "Open Sans";
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--dark-20);
+    text-transform: uppercase;
+}
+
+.autor-nameFilme h1{
+    font-family: "Andada Pro";
+    font-size: 6.4rem;
+    font-weight: 800;
+    color: var(--dark-20);
+    text-transform: uppercase;
+    line-height: 110%;
+}
+
+.button-assistir{
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-assistir img{
+    margin-right: 1rem;
+}
+
+button{
+    padding: 1.4rem 3.2rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .4rem;
+
+    text-transform: uppercase;
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+.btn{
+    background-color: var(--brand-color);
+}
+
+.btn-vazado{
+    background-color: transparent;
+    border: .2rem solid var(--brand-color);
+    color: var(--dark-20);
+}
+
+
+.right img{
+    position: relative;
+    left: 2rem;
+    bottom: 5rem;
+    max-width: 60rem;
+    object-fit:cover;
+    
+    /* Informação adicional */
+
+    /* Ativa a animação: nome, duração, tipo de transição e loop */
+    animation: flutuar 5s ease-in-out infinite;
+}
+
+/* Novo conhecimento relacionado a movimentação de elementos */
+@keyframes flutuar{
+    0%{
+        /* posição inicial */
+        transform: translateY(0); 
+    }
+
+    50%{
+        /* sobe 15px no meio do caminho */
+        transform: translateY(-1.5rem);
+    }
+
+    100%{
+        /* volta para a posição inicial */
+        transform: translateY(0);
+    }
+}

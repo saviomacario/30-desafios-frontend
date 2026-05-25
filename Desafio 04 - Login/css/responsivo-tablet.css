@@ -1,0 +1,10 @@
+@media(max-width:768px){
+
+    .card-esquerdo{
+        display: none;
+    }
+
+    .card-direito{
+        position:absolute;
+    }
+}

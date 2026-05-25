@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+html{
+    font-size: 62.5%;
+    background-color: green;
+}
+
+img{
+    /* Usado para não deixar a imagem esticar ou comprimir */
+    object-fit: none; 
+}

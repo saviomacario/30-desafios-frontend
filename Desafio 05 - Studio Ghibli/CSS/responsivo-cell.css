@@ -1,0 +1,33 @@
+@media(max-width: 375px){
+    .list-social{
+        display: none;
+    }
+
+    .container #logo{
+        position: absolute;
+        max-width: 10.1rem;
+        height: 4.8rem;
+    }
+    
+    header .container{
+        justify-content: center;
+    }
+
+    .filme{
+        margin-top: 1rem;
+        margin-bottom: 7rem;
+
+    }
+
+    .right img{
+        max-width: 27rem;
+        left: 0;
+        bottom: 0;
+    }
+
+    .left{
+        max-width: 32.7rem;
+        height: 38.2rem;
+        text-align: justify;
+    }
+}

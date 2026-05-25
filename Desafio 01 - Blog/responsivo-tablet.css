@@ -1,0 +1,32 @@
+@media (max-width:1000px){
+
+    /* Alterar o tamanho dos itens do cabeçalho */
+    #search, .artigo-um, .artigo-dois {
+        max-width: 30rem; /* Ajusta o limite para o tamanho do tablet */
+    }
+    
+    header{
+        height: auto;
+        padding: 2rem 0;
+    }
+
+    #search{
+    max-width: 30rem;
+    height: 2rem;
+    }
+
+    .artigo-um{
+    width: 30rem;
+    padding: 40px;
+    border: 2px solid;
+    border-color: var(--laranja);
+    border-radius: 8px;
+    }
+
+    .artigo-dois{
+    width: 30rem;
+    padding: 40px;
+    border: none;
+    border-radius: 8px;
+    }
+}
