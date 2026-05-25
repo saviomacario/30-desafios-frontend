@@ -2,5 +2,16 @@
     width: 100%;
     max-width: 124.6rem;
     margin: 0 auto;
-    padding: 0 4rem;
+    padding: 0 4rem; /* espaços laterais além do grid para telas menores*/
 }
+
+/* 
+    Para a criação do grid precisamos levar em conta algumas coisas, tais elas:
+
+    01º - Olhar o tamanho horizontal total do projeto no figma (max-width)
+    02º - Ver o espaçamento lateral direito e esquerdo que o conteúdo ocupa.
+    03º - Fazer a soma dos espaçamentos laterais e subtrair do max-width, com isso teremos 
+          o espaçamento onde o conteúdo do vai ocupar.
+
+          ESPAÇO DO CONTEÚDO = espamentos laterais - max-width
+*/
