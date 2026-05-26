@@ -6,8 +6,11 @@
     text-decoration: none;
     border: none;
     outline: none;
+
+    color: var(white);
 }
 
 html{
     font: 62.5%; /* definindo o tamanho padrão que quero para a minha fonte*/
+    background-color: var(--cod-gray);
 }
