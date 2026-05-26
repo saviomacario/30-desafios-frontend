@@ -26,6 +26,11 @@ li:nth-child(-n+4){
     margin-right: 5.6rem;
 }
 
+a:hover{
+    color: var(--verde);
+    transition: .3s;
+}
+
 .linha{
     width: 100%;
     max-width: 124.6rem;
@@ -72,6 +77,12 @@ li:nth-child(-n+4){
 
 }
 
+.left a:hover{
+    background-color: rgb(61, 158, 61);
+    color: var(--white);
+    transition: .3s;
+}
+
 .info{
     display: flex;
     flex-direction: column;
@@ -105,5 +116,5 @@ li:nth-child(-n+4){
 }
 
 .right img{
-    max-width: 35.7rem;
+    max-width: 38rem;
 }
