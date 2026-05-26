@@ -7,10 +7,11 @@
     border: none;
     outline: none;
 
-    color: var(white);
+    color: var(--white);
+    font-family: "Archivo";
 }
 
 html{
-    font: 62.5%; /* definindo o tamanho padrão que quero para a minha fonte*/
+    font-size: 62.5%; /* definindo o tamanho padrão que quero para a minha fonte*/
     background-color: var(--cod-gray);
 }
