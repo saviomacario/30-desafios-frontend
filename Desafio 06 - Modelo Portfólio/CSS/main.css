@@ -298,7 +298,7 @@ img{
     gap: 4.8rem;
 }
 
-.service h2{
+h2{
     display: flex;
     justify-content: center;
 }
@@ -341,4 +341,65 @@ img{
 
 .info-service span{
     font-size: 3.2rem;
+}
+
+/* Começando a formatação da section container habilidades */
+
+.habilidades{
+    display: flex;
+    flex-direction: column;
+    gap: 4.8rem;
+
+    margin-top: 15rem;
+}
+
+.vitrine-habilidade{
+    display: flex;
+    gap: 3.2rem;
+}
+
+.linguagem{
+    width: 100%;
+    max-width: 17.6rem;
+    height: 15rem;
+    background-color: var(--off-black);
+    border: .1rem solid var(--nero);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linguagem img{
+    max-width: 8rem;
+}
+
+/* Configurando o footer */
+footer{
+    width: 100%;
+    height: 10rem;
+    margin-top: 15rem;
+    background-color: var(--off-black);
+
+    display: flex;
+    align-items: center;
+}
+
+.msg{
+    display: flex;
+    justify-content: space-between;
+}
+
+.autor{
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.powered{
+    font-weight: 400;
+    font-size: 1.8rem;   
+}
+
+.cor{
+    color: var(--verde);
 }
