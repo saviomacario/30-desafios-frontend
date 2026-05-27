@@ -122,6 +122,7 @@ a:hover{
 /* iniciando a section about-me */
 
 .about-me{
+    width: 100%;
     height: 40.5rem;
     display: flex;
     flex-direction: column;
@@ -182,4 +183,108 @@ img{
     font-size: 1.8rem;
     font-weight: 400;
     white-space: nowrap;
+}
+
+/* Começando a section container project */
+
+.project{
+    width: 100%;
+    height: 88.9rem;
+    margin-top: 15rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 4.8rem;
+}
+
+.project h2{
+    display: flex;
+    justify-content: center;
+}
+
+.vitrine{
+    width: 100%;
+    max-width: 121.6rem;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 3.2rem;
+}
+
+.bloco:nth-child(-n+2){
+    margin-bottom: 3.2rem;
+}
+
+.bloco{
+    width: 100%;
+    max-width: 59.2rem;
+    height: 37.1rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+.img-projeto{
+    height: 20rem;
+    background-color: var(--off-black);
+    border: .1rem solid var(--nero);
+    border-radius: .4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-projeto span{
+    color: var(--verde);
+    font-size: 2.4rem;
+}
+
+.info-projeto{
+    width: 100%;
+    max-width: 24.8rem;
+    height: 7rem;
+}
+
+.info-projeto h3{
+    font-weight: 500;
+    font-size: 2.4rem;
+
+    margin-bottom: 2.4rem;
+}
+
+.info-projeto span{
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: var(--verde);
+}
+
+.btn-acessar{
+    display: flex;
+    gap: 3.2rem;
+}
+
+.btn{
+    width: 100%;
+    max-width: 20.2rem;
+    height: 3.7rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: .4rem;
+}
+
+.preenchido{
+    background-color: var(--verde);
+    color: var(--nero);
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.vazado{
+    color: var(--white);
+    font-size: 1.6rem;
+    font-weight: 500;
+    border: .2rem solid var(--verde);
 }
