@@ -26,7 +26,7 @@ Aprimorar o desenvolvimento de interfaces web através de projetos práticos, ap
  
 ## 📈 Progresso
  
-![6/30](https://img.shields.io/badge/Desafios-5%2F30-blue?style=flat)
+![6/30](https://img.shields.io/badge/Desafios-6%2F30-blue?style=flat)
  
 ## 👤 Autor
  
