@@ -1,6 +1,6 @@
 
 /* O height: 100vh foi importante porque demos altura para que a div fosse centralizada */
-.login-form{
+.login_form{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -39,7 +39,7 @@
     max-width: 55.2rem;
 }
 
-.login-input, .login-btn{
+.login_input, .login_btn{
     border-radius: .6rem;
     height: 6.1rem;
     font-size: 2rem;
@@ -47,15 +47,22 @@
     font-family: "Inter";
 }
 
-.login-input{
+.login_input{
     text-align: center;
 }
 
-.login-btn{
+.login_btn{
     color: var(--white);
     background-color: var(--purble);
 }
 
-.login-btn:hover{
+.login_btn:hover{
     background-color: #7136fc;
+    cursor: pointer;
+}
+
+.login_btn:disabled{
+    background-color: #aaa;
+    color: #eee;
+    cursor: auto;
 }
