@@ -1,0 +1,61 @@
+
+/* O height: 100vh foi importante porque demos altura para que a div fosse centralizada */
+.login-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5rem;
+    height: 100vh;
+}
+
+.name{
+    width: 100%;
+    max-width: 62.9rem;
+    display: flex;
+    align-items:center ;
+    gap: 4.3rem;
+}
+
+.name h1{
+    font-family: "Jolly Lodger";
+    font-size: 9.6rem;
+    color: var(--white);
+    -webkit-text-stroke: 1rem var(--purble);
+    paint-order: stroke fill;
+}
+
+.name img{
+    width: 100%;
+    max-width: 12.5rem;
+    height: 10.7rem;
+}
+
+.acess{
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+    width: 100%;
+    max-width: 55.2rem;
+}
+
+.login-input, .login-btn{
+    border-radius: .6rem;
+    height: 6.1rem;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: "Inter";
+}
+
+.login-input{
+    text-align: center;
+}
+
+.login-btn{
+    color: var(--white);
+    background-color: var(--purble);
+}
+
+.login-btn:hover{
+    background-color: #7136fc;
+}
