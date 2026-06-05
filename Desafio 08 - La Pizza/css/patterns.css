@@ -1,0 +1,69 @@
+.btn{
+    width: 100%;
+    max-width: 20.6rem;
+
+    padding: 1.2rem 4rem;
+    border-radius: 2.5rem;
+    background-color: var(--amarelo);
+
+    color: var(--preto);
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-family: "Inter";
+}
+
+.item__favorito{
+    width: 100%;
+    max-width: 28rem;
+    position: relative;
+}
+
+.bg{
+    height: 30rem;
+    background-color: var(--creme);
+    border: .2rem solid #FFF5DE;
+    border-radius: 1.6rem;
+}
+
+.icon{
+    position: absolute;
+    top:-1.5rem ;
+    left: 22rem;
+}
+
+.info, .info__pizza{
+    display: flex;
+    flex-direction: column;
+    align-items: center;;
+}
+
+.info{
+    width: 100%;
+    max-width: 21.5rem;
+    margin: 0 auto;
+
+    gap: 4rem;
+    top: -5rem;
+    position: relative;
+}
+
+.info__pizza{
+    gap: 1.6rem;
+}
+
+.v-title{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+p{
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 150%;
+}
+
+.v-valor{
+    font-size: 3.2rem;
+    font-weight: 600;
+}

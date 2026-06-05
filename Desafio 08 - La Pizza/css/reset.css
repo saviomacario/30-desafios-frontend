@@ -9,6 +9,6 @@
 }
 
 html{
-    background-color: var(--creme);
     font-family: "Inter";
+    font-size: 62.5%;
 }
