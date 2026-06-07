@@ -6,11 +6,12 @@
     border-radius: 2.5rem;
     background-color: var(--amarelo);
 
-    color: var(--preto);
+    color: black;
     text-transform: uppercase;
     font-size: 1.4rem;
     font-weight: 600;
     font-family: "Inter";
+    cursor: pointer;
 }
 
 .item__favorito{
@@ -26,10 +27,14 @@
     border-radius: 1.6rem;
 }
 
+
+
 .icon{
     position: absolute;
     top:-1.5rem ;
-    left: 22rem;
+    left: 23rem;
+    width: 3.2rem;
+    height: 3.2rem;
 }
 
 .info, .info__pizza{
@@ -39,13 +44,17 @@
 }
 
 .info{
-    width: 100%;
     max-width: 21.5rem;
     margin: 0 auto;
 
     gap: 4rem;
     top: -5rem;
     position: relative;
+}
+
+.img-fav img{
+    max-width: 12rem;
+    height: 12rem;
 }
 
 .info__pizza{

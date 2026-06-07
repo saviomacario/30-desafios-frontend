@@ -1,0 +1,115 @@
+header, .container{
+    height: 60rem;
+}
+
+header{
+    object-fit: cover;
+
+    background-image: url(../img/header/bg.png);
+    background-position: center center;
+    background-position-x: 90%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    width: 100%;
+    width: 59.6rem;
+    height: 39.4rem;
+}
+
+.vendas{
+    background-image: url(../img/vendas/bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 14.4rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+
+    width: 100%;
+    max-width: 127.7rem;
+
+}
+
+.container h2{
+    display: flex;
+    justify-content: center;
+
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.pizzas{
+    display: flex;
+    gap: 3.9rem;
+    flex-wrap: wrap;
+}
+
+/* Section about */
+
+.about{
+    display: flex;
+    flex-direction: row;
+    margin-top: 6.4rem;
+}
+
+.left{
+    width: 100%;
+    max-width: 48.8rem;
+    height: 50rem;
+}
+
+.left img{
+    display: block;
+    width: 100%;
+    max-width: 48.8rem;
+    height: 50rem;
+}
+
+.right{
+    width: 100%;
+    max-width: 59.2rem;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+.right h2{
+    justify-content: left;
+    font-size: 3.6rem;
+}
+
+.right .amarelo{
+    color: #FFBD48;
+}
+
+.right .vermelho{
+    color: #FF3536;
+}
+
+.right .verde{
+    color: #60BB28;
+}
+
+.right p{
+    text-align: left;
+}
+
+@media(max-width:1258px){
+    .pizzas{
+        gap: 1rem;
+    }
+}
