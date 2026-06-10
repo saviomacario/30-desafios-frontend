@@ -7,6 +7,8 @@ header{
     background-position-x: 90%;
     background-repeat: no-repeat;
     background-size: cover;
+
+    display: flex;
 }
 
 .logo{
@@ -62,6 +64,7 @@ img{
     display: flex;
     flex-direction: row;
     margin-top: 6.4rem;
+    margin-bottom: 6.4rem;
 }
 
 .left{

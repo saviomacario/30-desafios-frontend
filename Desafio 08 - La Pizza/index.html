@@ -17,20 +17,23 @@
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
         rel="stylesheet">
     <title>La Pizza</title>
+    <link rel="shortcut icon" href="./img/header/logo.png" type="image/x-icon">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <div class="container logo">
-            <img src="./img/header/logo.png" alt="Logo La Pizza">
+        <div class="container logo" >
+            <img src="./img/header/logo.png" alt="Logo La Pizza" data-aos="fade-up">
         </div>
     </header>
 
     <section class="vendas">
         <div class="container">
-            <h2>Mais vendidas</h2>
+            <h2 data-aos="fade-left">Mais vendidas</h2>
 
-            <div class="pizzas">
+            <div class="pizzas" data-aos="fade-up">
 
                 <div class="item__favorito">
                     <img src="./img/vendas/icon-favorite.svg" alt="icone de favorito" class="icon">
@@ -106,9 +109,9 @@
 
     <section class="container about">
         <div class="left">
-            <img src="./img/about/image.png" alt="Imagem do restaurante">
+            <img src="./img/about/image.png" alt="Imagem do restaurante" data-aos="fade-right">
         </div>
-        <div class="right">
+        <div class="right" data-aos="fade-up">
             <h2>Sobre a La P <span class="amarelo">i</span><span class="vermelho">z</span><span class="verde">z</span>a</h2>
             <p>
                 Bem-vindo ao "La Pizza", o seu refúgio acolhedor para uma experiência de pizzaria autêntica.
@@ -121,6 +124,8 @@
         </div>
     </section>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./animation.js"></script>
 </body>
 
 </html>
