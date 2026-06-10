@@ -1,0 +1,26 @@
+@media(max-width:637px){
+    img{
+        width: 21.6rem;
+        height: 14.3rem; 
+    }
+
+    .container h2{
+        font-size: 2.4rem;
+    }
+
+    .about{
+        height: auto;
+        margin-bottom: 5rem;
+    }
+
+    .left{
+        height: 40rem;
+    }
+
+    .left img{
+        display: block;
+        width: 100%;
+        max-width: 58.9rem;
+        height: 40rem;
+    }
+}
