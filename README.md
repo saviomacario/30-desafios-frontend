@@ -21,6 +21,9 @@ Aprimorar o desenvolvimento de interfaces web através de projetos práticos, ap
 | 03 | TechBlog | HTML, CSS, JS | [Ver projeto](./Desafio%2003%20-%20TechBlog) |
 | 04 | Login | HTML, CSS | [Ver projeto](./Desafio%2004%20-%20Login) |
 | 05 | Studio Ghibli | HTML, CSS | [Ver projeto](./Desafio%2005%20-%20Studio%20Ghibli) |
+| 06 | Modelo Portfólio | HTML, CSS | [Ver projeto](./Desafio%2006%20-%20Modelo%20Portfólio) |
+| 07 | jogo da Memória | HTML, CSS, Javascript | [Em andamento](./Desafio%2007%20-%20Jogo%20da%20Memória) |
+| 08 | La Pizza | HTML, CSS, Javascript | [Ver projeto](./Desafio%2008%20-%20La%20Pizza) |
 
 > 🔄 Tabela atualizada conforme novos desafios são concluídos.
  
