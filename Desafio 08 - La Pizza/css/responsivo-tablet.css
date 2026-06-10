@@ -1,0 +1,46 @@
+@media(max-width: 991px){
+
+    header{
+        display: flex;
+        height: 40rem;
+        background-image: url(../img/header/bg-tablet.png);;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    img{
+        width: 30rem;
+        height: 19.8rem;
+    }
+
+    .vendas{
+        background-image: url(../img/vendas/bg-tablet.png);
+        padding-top: 6rem;
+        background-position: center;
+        background-size: cover;
+        background-position-y: top 30%;
+
+        gap: 1.5rem;
+    }
+
+    .about{
+        flex-direction: column;
+        max-width: 70.4rem;
+        height: 84.9rem;
+        gap: 6.4rem;
+        margin-bottom: 5rem;
+    }
+
+    .left{
+        width: 100%;
+        max-width: 768rem;
+        align-items: center;
+    }
+
+    .left img{
+        display: flex;
+        width: 100%;
+        max-width: 70.4rem;
+    }
+}
+
