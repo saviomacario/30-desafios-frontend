@@ -1,0 +1,52 @@
+ /* Configuração dos títulos, subtítulos e paragrafos */
+ 
+ h1, h2{
+    font-family: "Pangolin";
+    color: var(--black);
+    line-height: 120%;
+    text-align: left;
+ }
+
+ h1{
+    font-size: 4.8rem;
+ }
+
+ h2{
+    font-size: 3.2rem;
+ }
+
+ p{
+    font-family: "Roboto";
+    font-size: 2rem;
+    line-height: 140%;
+    text-align: left;
+ }
+
+/* Botão */
+
+button{
+   padding: 2rem 4rem;
+   background-color: var(--blue-20);
+   border-radius: .5rem;
+   font-size: 1.8rem;
+   font-weight: 600;
+   font-family: "Roboto";
+   color: var(--white);
+   text-transform: uppercase;
+   cursor: pointer;
+}
+
+button:hover{
+   background-color: #186079;
+}
+
+/* Organizando o hgroup */
+
+.hgroup{
+   display: flex;
+   flex-direction: column;
+   gap: 2.4rem;
+}
+
+/* Card dos produtos */
+

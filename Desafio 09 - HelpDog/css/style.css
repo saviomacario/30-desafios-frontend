@@ -1,0 +1,144 @@
+.hero{
+    width: 100%;
+    padding: 0 6.4rem 0 35rem;
+    overflow: hidden; /* impede o retângulo de causar scroll horizontal */
+    position: relative;
+}
+
+
+.hero-info{
+    display: flex;
+    align-items: center;
+    gap: 9.1rem;
+}
+
+.hero-left{
+    display: flex;
+    gap: 11.5rem;
+    flex-direction: column;
+
+    width: 100%;
+    max-width: 45.6rem;
+}
+
+.logo{
+    display: flex;
+    gap: 1.6rem;
+    align-items: center;
+    width: 100%;
+    max-width: 17.5rem;
+}
+
+.logo h2{
+    color: var(--blue-20);
+}
+
+.text-btn{
+    display: flex;
+    flex-direction: column;
+    gap: 4.8rem;
+}
+
+button{
+    max-width: 21.4rem;
+}
+
+.hero-right {
+    position: relative;
+    width: 100%;
+    max-width: 70rem; /* ajuste conforme necessário */
+    overflow: visible;
+}
+
+.retangulo {
+    width: 128rem;
+    height: 50rem;
+    background-color: var(--yellow);
+    position: absolute;
+    z-index: -1;
+
+    border-radius: 30rem 0 0 30rem;
+    transform: rotate(-17.91deg);
+
+    /* Ancora à direita e centraliza verticalmente */
+    right: -47.5rem;
+    top: 55%;
+    translate: 0 -60%;
+}
+
+/* Section info */
+
+.info {
+    background-color: var(--white-blue);
+    padding: 8rem 0;
+}
+
+.info .container{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+
+    width: 100%;
+    max-width: 138rem;
+    position: relative;
+    right: 5rem;
+}
+
+.info-right{
+    display: flex;
+    flex-direction: column;
+    gap: 4.8rem;
+
+    width: 100%;
+    max-width: 59.2rem;
+}
+
+/* Section Product */
+
+.product{
+    width: 100%;
+    max-width: 121.6rem;
+    margin: 0 auto;
+
+    padding: 10rem 0;
+}
+
+.vitrine{
+    display: flex;
+    gap: 3.2rem;
+    flex-wrap: wrap;
+}
+
+.product-racao{
+    width: 100%;
+    max-width: 38.4rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 4.3rem;
+}
+
+.product-racao img{
+    margin: 0 auto;
+}
+
+.product-racao img{
+    width: 33.3rem;
+    height: 36.6rem;
+}
+
+.info-racao{
+    gap: 4rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.info-racao button{
+    width: 100%;
+    max-width: 38.4rem;
+}
+
+.info-racao .hgroup p{
+    max-width: 30rem;
+}
