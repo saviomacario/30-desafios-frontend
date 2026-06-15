@@ -1,0 +1,27 @@
+@media(max-width: 637px){
+    .hero{
+        padding: 8rem 3.2rem;
+    }
+
+    .hero-left{
+        gap: 6.1rem;
+    }
+
+    .hero-left h1{
+        max-width: 31.1rem  ;
+    }
+
+    .info-left img{
+        max-width: 39.9rem;
+        position: relative;
+        left: -2rem;
+    }
+
+    .text-btn{
+        gap: 4.8rem;
+    }
+
+    .info-right{
+        max-width: 31.1rem  ;
+    }
+}

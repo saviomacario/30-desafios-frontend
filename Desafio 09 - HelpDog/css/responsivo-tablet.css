@@ -1,0 +1,54 @@
+@media(max-width: 991px){
+
+    .hero{
+        padding: 8rem 18.1rem;
+    }
+
+    .hero-left{
+        align-items: center;
+        margin: 0 auto;
+        gap: 8rem;
+    }
+
+    .text-btn{
+        align-items: center;
+    }
+
+    h1, p{
+        text-align: center;
+    }
+
+    .hero-right{
+        display: none;
+    }
+
+    /* Section produto */
+
+    .info .container{
+        flex-wrap: wrap;
+        gap: 0;
+        right: 0;
+        justify-content: center;
+    }
+
+    .info-right{
+        justify-content: center;
+    }
+
+    .info-right button{
+        margin: 0 auto;
+    }
+
+    .hgroup h2{
+        text-align: center;
+    }
+
+    /* section product */
+
+    .vitrine{
+        flex: 1 1 14rem;
+        display:grid;
+        flex-wrap: wrap;
+    }
+
+}
