@@ -62,4 +62,9 @@ button:hover{
    p{
       font-size: 1.4rem;
    }
+
+   button{
+      padding: 1.6rem 3.2rem;
+      font-size: 1.4rem;
+   }
 }

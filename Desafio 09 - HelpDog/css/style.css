@@ -86,6 +86,10 @@ button {
     right: 5rem;
 }
 
+.info-left img{
+    width: 100%;
+}
+
 .info-right {
     display: flex;
     flex-direction: column;
