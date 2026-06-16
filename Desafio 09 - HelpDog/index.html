@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./css/responsivo-cell.css">
     <title>HelpDog </title>
     <link rel="shortcut icon" href="./img/hero/favicon.svg" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,10 +21,13 @@
         rel="stylesheet">
 </head>
 <body>
+
+    <!-- como é um projeto que aprendizagem, não coloquei os links nos botões -->
+
     <section class="hero">
         <div class="container">
             <div class="hero-info">
-                <div class="hero-left">
+                <div data-aos="fade-up" class="hero-left">
                     <div class="logo">
                         <img src="./img/hero/logo-pet.svg" alt="Logo HelpDog">
                         <h2>HelpDog</h2>
@@ -38,7 +42,7 @@
                         <button>Ajuda agora</button>
                     </div>
                 </div>
-                <div class="hero-right">
+                <div data-aos="fade-left" class="hero-right">
                     <div class="retangulo"></div>
                     <img src="./img/hero/dog.png" alt="">
                 </div>
@@ -48,10 +52,10 @@
 
     <section class="info">
         <div class="container">
-            <div class="info-left">
+            <div data-aos="fade-up" class="info-left">
                 <img src="./img/section-info/dog-info.png" alt="Imagem do dog">
             </div>
-            <div class="info-right">
+            <div data-aos="fade-left" class="info-right">
                 <div class="hgroup">
                     <h2>Os cães falam, mas apenas <br> para quem sabe ouvir.</h2>
                     <p>Descubra histórias encantadoras, segredos reveladores
@@ -67,7 +71,7 @@
 
     <section class="product">
         <div class="container">
-            <div class="vitrine">
+            <div data-aos="fade-up" class="vitrine">
                 <div class="product-racao">
                     <img src="./img/section-products/racao-special-dog.png" alt="Ração Special Dog">
 
@@ -110,6 +114,9 @@
             </div>
         </div>
     </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./animation.js"></script>
 
 </body>
 </html>
