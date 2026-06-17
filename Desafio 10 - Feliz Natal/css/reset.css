@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    background-color: var(--white);
+    /* Decidi colocar a font-family aqui porque é usado a mesma fonte em todo projeto */
+    font-family: 'Archivo';
+}
