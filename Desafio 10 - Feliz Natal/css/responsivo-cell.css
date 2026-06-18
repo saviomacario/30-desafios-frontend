@@ -1,0 +1,78 @@
+@media(max-width: 637px){
+
+    .hero{
+        padding: 5rem 0;
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column;
+        gap: 2.4rem;
+        justify-content: center;
+    }
+
+    .hero-info{
+        gap: 6.2rem;
+    }
+
+     .hero .info h2{
+        max-width: 27rem;
+        margin: 0 auto;
+        font-size: 3.2rem;
+    }
+
+    .p-red{
+        font-size: 3.2rem;
+    }
+
+    .info p{
+        max-width: 29rem;
+        margin: 0 auto;
+        font-size: 1.8rem;
+    }
+
+    button{
+        width: 100%;
+        max-width: 32.7rem;
+    }
+
+    .info-right button{
+        padding: 0 5rem;
+    }
+
+    .hero-right img{
+        max-width: 32rem;
+        height: 22rem;
+    }
+
+    .contagem h1, .contagem p{
+        font-size: 3.2rem;
+    }
+
+    .timer .container{
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+        padding: 4rem 0;
+        align-items: center;
+    }
+
+    .info-left img{
+        max-width: 32rem;
+        height: 22rem;
+    }
+
+    .timer .container img{
+        max-width: 32rem;
+        height: 22rem;
+    }
+
+    .info h2{
+        max-width: 38rem;
+        margin: 0 auto;
+    }
+
+    .info-conectando{
+        padding: 4rem 0;
+    }
+}

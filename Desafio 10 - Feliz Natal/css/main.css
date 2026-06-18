@@ -58,6 +58,7 @@ span{
 
 .timer .container h2, .timer .container p{
     text-align: center;
+    margin: 0 auto;
 }
 
 .contagem-regressiva{
@@ -79,17 +80,19 @@ span{
 
 /* section informacoes */
 
+.informacoes{
+    padding: 8rem 0 ;
+}
 
 .info-conectando{
+    width: 100%;
     display: flex;
     gap: 20.6rem;
-    padding: 8rem 0;
 }
 
 .info-right{
     width: 100%;
     max-width: 60.2rem;
-    height: 30rem;
 }
 
 .info h2{
@@ -110,6 +113,7 @@ footer .container{
 
 .icon-sociais{
     display: flex;
+    gap: 3.6rem;
 }
 
 .circle-img{
@@ -121,8 +125,4 @@ footer .container{
     height: 4rem;
     background-color: var(--dark-rosa);
     border-radius: 99rem;
-}
-
-.icon-sociais:nth-child(-n+3){
-    gap: 3.6rem;
 }

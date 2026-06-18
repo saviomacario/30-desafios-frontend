@@ -3,7 +3,7 @@ const horas = document.getElementById('horas')
 const minutos = document.getElementById('minutos')
 const segundos = document.getElementById('segundos')
 
-const dataFinal = "24 dec 2026" //é nossa data final, é importante que esteja no formato EUA
+const dataFinal = "25 dec 2026" //é nossa data final, é importante que esteja no formato EUA
 
 function contagemRegressiva(){
 
@@ -29,7 +29,7 @@ function contagemRegressiva(){
     dias.innerHTML = finalDias;
     horas.innerHTML = formatoTempo(finalHoras); // Acrescenta um 0 quando o número for menor que 10
     minutos.innerHTML = formatoTempo(finalMinutos); // Acrescenta um 0 quando o número for menor que 10
-    segundos.innerHTML = finalSegundos;
+    segundos.innerHTML = formatoTempo(finalSegundos);
 }
 
 /*
