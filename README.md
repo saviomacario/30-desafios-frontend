@@ -24,12 +24,14 @@ Aprimorar o desenvolvimento de interfaces web através de projetos práticos, ap
 | 06 | Modelo Portfólio | HTML, CSS | [Ver projeto](./Desafio%2006%20-%20Modelo%20Portfólio) |
 | 07 | Jogo da Memória | HTML, CSS, Javascript | [Em andamento](./Desafio%2007%20-%20Jogo%20da%20Memória) |
 | 08 | La Pizza | HTML, CSS, Javascript | [Ver projeto](./Desafio%2008%20-%20La%20Pizza) |
+| 09 | HelpDog | HTML, CSS, Javascript | [Ver projeto](./Desafio%2009%20-%20HelpDog) |
+| 10 | Feliz Natal | HTML, CSS, Javascript | [Ver projeto](./Desafio%2010%20-%20Feliz%20Natal) |
 
 > 🔄 Tabela atualizada conforme novos desafios são concluídos.
  
 ## 📈 Progresso
  
-![8/30](https://img.shields.io/badge/Desafios-8%2F30-blue?style=flat)
+![10/30](https://img.shields.io/badge/Desafios-10%2F30-blue?style=flat)
  
 ## 👤 Autor
  
