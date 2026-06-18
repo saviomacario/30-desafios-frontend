@@ -1,0 +1,128 @@
+.hero{
+    background-color: var(--rosa);
+    padding: 10.5rem 0;
+}
+
+.hero-info{
+    display: flex;
+    gap: 12.6rem;
+}
+
+.hero-left{
+    display: flex;
+    width: 100%;
+    max-width: 59rem;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.logo-text{
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+span{
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+
+/* span do h2 em vermelho */
+.p-red{
+    font-size: 4rem;
+    line-height: 120%;
+    font-weight: 600;
+    color: var(--vermelho);
+}
+
+/* img da logo */
+.logo-text img{
+    width: 100%;
+    max-width: 3.5rem;
+    height: 3.8rem;
+}
+
+/* Section timer */
+
+.timer .container{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 8rem 0;
+    align-items: center;
+}
+.timer .container .info{
+    width: 100%;
+    max-width: 57rem;
+}
+
+.timer .container h2, .timer .container p{
+    text-align: center;
+}
+
+.contagem-regressiva{
+    display: flex;
+    gap: 2rem;
+    color: var(--vermelho);
+}
+
+.contagem{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contagem h1, .contagem p{
+    font-size: 6.4rem;
+    font-weight: 600;
+}
+
+/* section informacoes */
+
+
+.info-conectando{
+    display: flex;
+    gap: 20.6rem;
+    padding: 8rem 0;
+}
+
+.info-right{
+    width: 100%;
+    max-width: 60.2rem;
+    height: 30rem;
+}
+
+.info h2{
+    max-width: 48.8rem;
+}
+
+/* footer */
+footer{
+    background-color: var(--rosa);
+    padding: 2rem;
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-sociais{
+    display: flex;
+}
+
+.circle-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 4rem;
+    height: 4rem;
+    background-color: var(--dark-rosa);
+    border-radius: 99rem;
+}
+
+.icon-sociais:nth-child(-n+3){
+    gap: 3.6rem;
+}

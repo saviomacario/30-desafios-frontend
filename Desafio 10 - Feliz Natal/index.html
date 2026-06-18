@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./css/variaveis.css">
     <link rel="stylesheet" href="./css/grid.css">
     <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/responsivo-tablet.css">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,24 +23,130 @@
     <link rel="shortcut icon" href="./img/hero/papai-noel.svg" type="image/x-icon">
 </head>
 <body>
+    <section class="hero">
+        <div class="container">
+            <div class="hero-info">
+                <div class="hero-left">
 
-</body>
-</html>
+                    <div class="logo-text">
+                            <img src="./img/hero/papai-noel.svg" alt="Imagem do Papai Noel">
+                            <span>Feliz Natal</span>
+                    </div>
 
+                    <div class="info">
+                        <h2>Uma <span class="p-red">plataforma de doação</span> para espalhar alegria</h2>
+                        <p>Nessas festas de fim de ano mande um presente <br> para a pessoa amada e compartilhe
+                        a alegria do Natal.</p>
+                    </div>
 
+                    <button>Fazer uma doação</button>
+                </div>
 
-    <!-- Criando os patterns para facilitar a formatação do site
-    <section>
-        <div class="info-botao">
-            <div class="info">
-                <h2>Conectando generosidade ao redor do mundos</h2>
-
-                <p>Celebre a magia do Natal de uma maneira especial!
-                Descubra a plataforma que permite a doação de presentes
-                significativos para aqueles que mais precisam. Faça parte
-                do movimento e compartilhe o verdadeiro espírito da generosidade.</p>
+                <div class="hero-right">
+                    <img src="./img/hero/loja.png" alt="Ilustração de uma loja">
+                </div>
             </div>
-
-            <a href="#"><button>Fazer uma doação</button></a>
         </div>
     </section>
+
+    <section class="timer">
+        <div class="container">
+            <div class="info">
+                <h2>Tempo limitado</h2>
+                <p>Nessas festas de fim de ano mande um presente para a pessoa amada
+                e compartilhe a alegria do Natal.</p>
+            </div>
+
+            <div class="contagem-regressiva">
+                <div class="contagem">
+                    <h1 id="dia">00</h1>
+                    <p>d</p>
+                </div>
+
+                <div class="contagem">
+                    <h1 id="horas">00</h1>
+                    <p>h</p>
+                </div>
+
+                <div class="contagem">
+                    <h1 id="minutos">00</h1>
+                    <p>m</p>
+                </div>
+
+                <div class="contagem">
+                    <h1 id="segundos">00</h1>
+                    <p>s</p>
+                </div>
+            </div>
+
+            <img src="./img/limited-time/presents.png" alt="Ilustração de presente de natal">
+        </div>
+    </section>
+
+    <section class="informacoes">
+        <div class="container">
+            <div class="info-conectando">
+                <div class="info-left">
+                    <img src="./img/info/bolinha-de-natal.png" alt="Bolinha de Natal">
+                </div>
+
+                <div class="info-right">
+                    <div class="info">
+                        <h2>Conectando generosidade ao redor do mundos</h2>
+                        <p>Celebre a magia do Natal de uma maneira especial!
+                         Descubra a plataforma que permite a doação de presentes
+                         significativos para aqueles que mais precisam. Faça parte
+                         do movimento e compartilhe o verdadeiro espírito da generosidade.</p>
+                    </div>
+
+                    <a href="#"><button>Fazer uma doação</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="logo-text">
+                    <img src="./img/hero/papai-noel.svg" alt="Imagem do Papai Noel">
+                    <span>Feliz Natal</span>
+            </div>
+
+            <div class="icon-sociais">
+                <a href="#">
+                    <div class="circle-img">
+                        <img src="./img/footer/twitter.svg" alt="icone Twitter">
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="circle-img">
+                        <img src="./img/footer/whatsapp.svg" alt="icone Twitter">
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="circle-img">
+                        <img src="./img/footer/instagram.svg" alt="icone Twitter">
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="circle-img">
+                        <img src="./img/footer/facebook.svg" alt="icone Twitter">
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="circle-img">
+                        <img src="./img/footer/google.svg" alt="icone Twitter">
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="./javascript/contagem.js"></script>
+</body>
+</html>

@@ -27,15 +27,14 @@ button{
     font-size: 1.8rem;
     background-color: var(--vermelho);
     color: var(--branco);
+    cursor: pointer;
 }
 
-/* organizaçção do grupo info-botao */
-
-.info-botao{
-    display: flex;
-    flex-direction: column;
-    gap: 4rem;
+button:hover{
+    background-color: #af1308;
 }
+
+/* organizaçção do grupo dos textos*/
 
 .info{
     display: flex;
@@ -43,21 +42,8 @@ button{
     gap: 2.4rem;
 }
 
-/* Organização da logo */
-
-.logo-text{
+.info-right{
     display: flex;
-    align-items: center;
-    gap: 1.2rem;
-}
-
-span{
-    font-size: 2.4rem;
-    font-weight: 500;
-}
-
-.logo-text img{
-    width: 100%;
-    max-width: 3.5rem;
-    height: 3.8rem;
+    flex-direction: column;
+    gap: 4rem;
 }
