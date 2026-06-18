@@ -1,10 +1,10 @@
 /* Configuração do texto */
 
-h2, p{
+h1, h2, p{
     text-align: left;
 }
 
-h2{
+h1, h2{
     font-size: 4rem;
     line-height: 120%;
     font-weight: 600;
@@ -17,7 +17,7 @@ p{
 
 /* Botão */
 
-button{
+.btn{
     width: 100%;
     max-width: 23.8rem;
     height: 4.9rem;
@@ -30,7 +30,7 @@ button{
     cursor: pointer;
 }
 
-button:hover{
+.btn:hover{
     background-color: #af1308;
 }
 

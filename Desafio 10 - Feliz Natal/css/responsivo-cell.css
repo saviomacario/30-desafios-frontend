@@ -31,12 +31,12 @@
         font-size: 1.8rem;
     }
 
-    button{
+    .btn{
         width: 100%;
         max-width: 32.7rem;
     }
 
-    .info-right button{
+    .info-right .btn{
         padding: 0 5rem;
     }
 

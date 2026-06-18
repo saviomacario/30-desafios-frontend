@@ -26,7 +26,7 @@ function contagemRegressiva(){
         for menor que 10.
     */
 
-    dias.innerHTML = finalDias;
+    dias.innerHTML = formatoTempo(finalDias);
     horas.innerHTML = formatoTempo(finalHoras); // Acrescenta um 0 quando o número for menor que 10
     minutos.innerHTML = formatoTempo(finalMinutos); // Acrescenta um 0 quando o número for menor que 10
     segundos.innerHTML = formatoTempo(finalSegundos);
