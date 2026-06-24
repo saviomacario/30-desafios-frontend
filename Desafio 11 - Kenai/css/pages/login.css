@@ -1,0 +1,94 @@
+/* header */
+.n-bar{
+    padding: 0 6.4rem;
+    height: 11.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* 
+    Para que a imagem se ajustasse no tamanho da minha tag de ancora,
+    eu designei um espaço para ela e disse que minha imagem poderia
+    ocupar 100% da largura e da altura.
+*/
+
+.n-bar .logo{
+    width: 100%;
+    height: 100%;
+    max-width: 10.4rem;
+    max-height: 5.4rem;
+}
+
+.n-bar .logo img{
+    width: 100%;
+    height: 100%;
+}
+
+#clock{
+    font-size: 3.6rem;
+    font-weight: lighter;
+}
+
+/* Organizando a section welcome */
+
+.welcome .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 17.6rem;
+    padding: 5.6rem 0;
+}
+
+/* G=texto do main */
+.welcome .container .text{
+    width: 100%;
+    max-width: 85rem;
+    text-align: center;
+    
+    display: flex;
+    gap: 2.4rem;
+}
+
+.welcome .container .text{
+    flex-direction: column;
+}
+
+.welcome .container .text h1{
+    font-size: 6.4rem;
+    font-weight: lighter;
+}
+
+.welcome .container .text span{
+    font-size: 4rem;
+    font-weight: lighter;
+}
+
+/* Organizando os icones de users*/
+
+.welcome .container .g-user{
+    display: flex;
+    width: 100%;
+    max-width: 85rem;
+    gap: 11.7rem;
+    justify-content: space-between;
+}
+
+/* Organizando o botão */
+.btn-dark{
+    width: 100%;
+    max-width: 22.9rem;
+    height: 5.9rem;
+
+    font-size: 2rem;
+    color: var(--branco);
+    font-weight: 600;
+    background-color: var(--carvao);
+    cursor: pointer;
+    border-radius: .4rem;
+}
+
+.btn-dark:hover{
+    background-color: #2b2b2b;
+    color: var(--amarelo);
+}

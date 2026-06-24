@@ -1,0 +1,26 @@
+/* Icone de User (login) */
+.s-user{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.s-user{
+    transition: transform .3s ease;
+    overflow: hidden;
+}
+
+.s-user:hover{
+    transform: scale(1.1);
+}
+
+.s-user a img{
+    width: 100%;
+    max-width: 17.6rem;
+}
+
+.s-user a span{
+    font-size: 3.2rem;
+    color: var(--branco);
+}

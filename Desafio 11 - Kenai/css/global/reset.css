@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Open Sans';
+    background-color: var(--preto);
+    /* Definindo a cor branca no html porque a maioria das letras são brancas */
+    color: var(--branco);
+}
