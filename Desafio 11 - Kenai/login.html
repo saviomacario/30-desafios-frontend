@@ -14,6 +14,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     
     <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- CSS próprio -->
      <link rel="stylesheet" href="./css/global/reset.css">
      <link rel="stylesheet" href="./css/global/variaveis.css">
@@ -25,7 +27,7 @@
 </head>
 <body>
     <header>
-        <nav class="n-bar">
+        <nav data-aos="fade-up" class="n-bar">
             <a  class="logo" href="#">
                 <img  src="./img/perfil-user/Kenai.svg" alt="Icone da Kemai">
             </a>
@@ -36,12 +38,12 @@
     <main>
         <section class="welcome">
             <div class="container">
-                <div class="text">
+                <div data-aos="fade-up" class="text">
                     <h1>Bem-vindo de volta ao Kenai</h1>
                     <span>Quem está usando?</span>
                 </div>
 
-                <div class="g-user">
+                <div data-aos="fade-down" class="g-user">
                     <div class="s-user">
                         <a href="#"><img src="./img/perfil-user/user/user1.png" alt="Icone de usuário"></a>
                         <a href="#"><span>Matheus Ramos</span></a>
@@ -65,5 +67,7 @@
     </main>
 
     <script src="./javascript/timer.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./javascript/animation.js"></script>
 </body>
 </html>
