@@ -45,13 +45,10 @@
     width: 100%;
     max-width: 85rem;
     text-align: center;
+    flex-direction: column;
     
     display: flex;
     gap: 2.4rem;
-}
-
-.welcome .container .text{
-    flex-direction: column;
 }
 
 .welcome .container .text h1{
@@ -70,8 +67,8 @@
     display: flex;
     width: 100%;
     max-width: 85rem;
-    gap: 11.7rem;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 /* Organizando o botão */

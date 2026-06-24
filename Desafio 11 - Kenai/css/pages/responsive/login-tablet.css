@@ -1,0 +1,63 @@
+@media(max-width: 991px){
+    
+    /* Organização do header */
+    .n-bar{
+        height: 11.4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #clock{
+        display: none;
+    }
+
+    .n-bar .logo{
+        position: absolute;
+        max-width: 6.3rem;
+        max-height: 3.3rem;
+    }
+
+    /* main */
+    /* div text  */
+    .welcome .container{
+        gap: 5.6rem;
+        padding: 20.2rem 0;
+    }
+
+    .welcome .container .text{
+        max-width: 31.2rem;
+        gap: 1.6rem;
+    }
+
+    .welcome .container .text h1{
+        font-size: 2rem;
+    }
+
+    .welcome .container .text span{
+        font-size: 1.8rem;
+    }
+
+    /* div g-user */
+
+    .welcome .container .g-user{
+        display: flex;
+        width: 100%;
+        max-width: 59rem;
+        gap: 8rem;
+    }
+
+    .s-user a img{
+        max-width: 12rem;
+    }
+
+    .s-user a span{
+        font-size: 1.8rem;
+    }
+
+    /* Organizando o botão */
+    .btn-dark{
+        max-width: 31.2rem;
+        height: 5.4rem;
+    }
+}

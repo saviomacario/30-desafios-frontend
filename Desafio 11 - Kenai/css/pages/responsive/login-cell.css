@@ -1,0 +1,11 @@
+@media(max-width: 637px){
+    .welcome .container .g-user{
+        justify-content: center;
+        display: grid;
+        flex-wrap: wrap;
+    }
+
+    .welcome .container{
+        padding: 8rem 0 15rem 0;
+    }
+}
