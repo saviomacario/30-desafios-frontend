@@ -24,3 +24,48 @@
     font-size: 3.2rem;
     color: var(--branco);
 }
+
+/* CARD DE FILME */
+.catalogo-filme{
+    position: relative;
+    display: inline-block;
+}
+
+.catalogo-filme .filme-info{
+
+    position: absolute;
+    top: 29.1rem;
+    bottom: 3.2rem;
+    left: 2.4rem;
+    right: 10.64rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.catalogo-filme .filme-info .name-filme{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.catalogo-filme .filme-info .star-text{
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+    padding-bottom: .8rem;    
+}
+
+.text-amarelo{
+    color: var(--amarelo);
+    font-weight: 600;
+    background-color: var(--carvao);
+    border-radius: 0 .8rem 0 .8rem;
+    padding: .2rem .6rem;
+    text-align: center;
+}
+
+.catalogo-filme .filme-info .star-text .g-star{
+    display: flex;
+    gap: .6rem;
+    flex-direction: row;
+}
