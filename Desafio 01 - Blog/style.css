@@ -15,6 +15,7 @@
     padding: 0; /* Tira o espaçamento interno*/
     box-sizing: border-box; /* Não deixa o elemento ter o tamanho maior do que o descrito*/
     font-family: 'Inter', sans-serif;
+    border: none;
 }
 
 header, .header-box, #id-logo{
@@ -95,7 +96,7 @@ section{
     color: var(--laranja);
 }
 
-.info>h3{
+.info > h3{
     font-family: 'Space Grotesk';
     color: var(--dark-60);
     margin-bottom: 16px;
@@ -103,4 +104,9 @@ section{
 
 .info > p{
     color: var(--dark-60);
+}
+
+/* Estudo de substituição de imagens */
+.coracao{
+    cursor: pointer;
 }

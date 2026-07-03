@@ -30,3 +30,106 @@ html{
     font-weight: 600;
     color: var(--branco);
 }
+
+/* Main */
+
+/* Organizando a div do tempo-genero */
+
+/* Acrescentei no container mais uma propriedade para que tenha um padding em cima e em baixo de 8rem */
+.container{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.container .informacoes{
+    max-width: 59.2rem;
+    margin-bottom: 9.6rem;
+}
+
+.container .informacoes .tempo-genero{
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.estrela-preenchida{
+    width: 100%;
+    max-width: 13.2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-amarelo, .genero{
+    max-width: 11.7rem;
+}
+
+.tempo{
+    display: flex;
+    gap: 2.4rem;
+}
+
+.tempo-filme{
+    display: flex;
+    align-items: center;
+}
+
+.clock{
+    padding-left: .8rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.sinopse-btn{
+    max-width: 59.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.sinopse-btn .sinopse{
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.sinopse h1{
+    font-size: 5.6rem;
+    width: 21.4rem;
+    font-weight: 600;
+}
+
+.sinopse p{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.btn-amarelo{
+    max-width: 21.6rem;
+    height: 5.1rem;
+    border-radius: .4rem;
+    background-color: var(--amarelo);
+    font-size: 2rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* analisar posteriormente esse hover */
+.btn-amarelo:hover{
+    color: var(--amarelo);
+    background-color: var(--branco);
+    border: .2rem solid var(--amarelo);
+    transition: ease-in-out .3s;
+}
+
+/* MEXENDO COM SLIDES */  
+
+.box .container{
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+}
+
+.slide{
+    display: flex;
+    gap: 1.6rem;
+}

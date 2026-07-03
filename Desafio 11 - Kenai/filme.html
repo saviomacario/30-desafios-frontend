@@ -1,105 +1,248 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kenai | Login</title>
 
-    <meta name="description" content="Plataforma nota 10 em filmes com alta qualidade, filmes atualizados...">
-    <link rel="shortcut icon" href="./img/perfil-user/Kenai.svg" type="image/x-icon">
+    <meta name="description" content="Plataforma nota 10 em filmes com alta qualidade, filmes atualizados..." />
+    <link rel="shortcut icon" href="./img/perfil-user/Kenai.svg" type="image/x-icon" />
 
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet" />
+
     <!-- AOS -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
     <!-- CSS próprio -->
-     <link rel="stylesheet" href="./css/global/reset.css">
-     <link rel="stylesheet" href="./css/global/variaveis.css">
-     <link rel="stylesheet" href="./css/global/patterns.css">
-     <link rel="stylesheet" href="./css/global/grid.css">
-     <link rel="stylesheet" href="./css/pages/filme.css">
-     <link rel="stylesheet" href="./css/pages/responsive/filme-tablet.css"> 
-     <link rel="stylesheet" href="./css/pages/responsive/filme-cell.css">
+    <link rel="stylesheet" href="./css/global/reset.css" />
+    <link rel="stylesheet" href="./css/global/variaveis.css" />
+    <link rel="stylesheet" href="./css/global/patterns.css" />
+    <link rel="stylesheet" href="./css/global/grid.css" />
+    <link rel="stylesheet" href="./css/pages/filme.css" />
+    <link rel="stylesheet" href="./css/pages/responsive/filme-tablet.css" />
+    <link rel="stylesheet" href="./css/pages/responsive/filme-cell.css" />
 </head>
+
 <body>
     <header>
         <nav class="header-nav">
-            <img class="logo-header" src="./img/tela-principal/header/Kenai.svg" alt="icone da Kenai">
+            <img class="logo-header" src="./img/tela-principal/header/Kenai.svg" alt="icone da Kenai" />
 
             <div class="list-header">
                 <ul>
                     <li>
                         <a aria-label="Pesquisar" href="#">
-                            <img id="icon-search" src="./img/tela-principal/header/button-search.svg"alt="Icone de Pesquisa">
+                            <img id="icon-search" src="./img/tela-principal/header/button-search.svg"
+                                alt="Icone de Pesquisa" />
                         </a>
                     </li>
-                    
+
                     <li>
                         <a href="#">Início</a>
                     </li>
-                    
+
                     <li>
                         <a href="#">Minha Lista</a>
                     </li>
 
                     <li>
                         <a aria-label="Notificação" href="#">
-                            <img id="icon-notification" src="./img/tela-principal/header/notification.svg"alt="Icone de notificação">
+                            <img id="icon-notification" src="./img/tela-principal/header/notification.svg"
+                                alt="Icone de notificação" />
                         </a>
                     </li>
 
                     <li>
                         <a aria-label="Usuário" href="#">
-                            <img id="icon-search" src="./img/tela-principal/header/button-user.svg"alt="Icone de usuário">
+                            <img id="icon-search" src="./img/tela-principal/header/button-user.svg"
+                                alt="Icone de usuário" />
                         </a>
                     </li>
-
                 </ul>
             </div>
         </nav>
     </header>
 
     <main>
-        <div class="container">
-            <section class="informações">
+        <section class="informacoes">
+            <div class="container">
                 <div class="tempo-genero">
                     <div class="genero">
                         <span class="text-amarelo">Ação/Aventura</span>
                     </div>
                     <div class="tempo">
                         <!-- Aqui irá ficar as estrelas e o timer do filme -->
+                        <div class="estrela-preenchida">
+                            <img src="./img/tela-principal/main/info/estrela-preenchida.svg" alt="Estrela" />
+                            <img src="./img/tela-principal/main/info/estrela-preenchida.svg" alt="Estrela" />
+                            <img src="./img/tela-principal/main/info/estrela-preenchida.svg" alt="Estrela" />
+                            <img src="./img/tela-principal/main/info/estrela-preenchida.svg" alt="Estrela" />
+                            <img src="./img/tela-principal/main/info/estrela-preenchida.svg" alt="Estrela" />
+                        </div>
+
+                        <div class="tempo-filme">
+                            <img src="./img/tela-principal/main/info/clock.svg" alt="Relógio de Timer" />
+                            <span class="clock">1h 57m</span>
+                        </div>
+                    </div>
+
+                    <div class="sinopse-btn">
+                        <div class="sinopse">
+                            <h1>Batman</h1>
+
+                            <p>
+                                Gotham City enfrenta uma nova ameaça, e Bruce Wayne assume o
+                                papel do Cavaleiro das Trevas para deter uma organização
+                                criminosa. Em meio a seus próprios demônios internos, Wayne
+                                luta para salvar a cidade da iminente escuridão eterna.
+                            </p>
+                        </div>
+
+                        <button class="btn-amarelo">Assistir agora</button>
                     </div>
                 </div>
-            </section>
-            <section class="slide">
-                <!-- Aqui irá ficar os filmes sugeridos ou em catelogo, lembrando que será um slide no responsivo -->
-            </section>
-        </div>
+            </div>
+        </section>
+
+        <section class="box" aria-label="Filmes sugeridos">
+            <div class="container">
+                <!-- Para ficar de forma semântica, colocamos os filmes em lista não ordenadas -->""
+
+                <div class="box-carrossel">
+                    <!-- Shang-chi -->
+                    <ul class="slide">
+                        <li class="catalogo-filme">
+                            <img src="./img/tela-principal/main/filmes/bg-shang-chi.png"
+                                alt="banner de shang-chi" />
+                            <div class="filme-info">
+                                <div class="star-text">
+                                    <span class="text-amarelo">Ação/Suspense</span>
+                                    <div class="g-star">
+                                        <img class="star" src="./img/tela-principal/main/info/estrela.svg"
+                                            alt="estrelas" />
+                                        <img class="star" src="./img/tela-principal/main/info/estrela.svg"
+                                            alt="estrelas" />
+                                        <img class="star" src="./img/tela-principal/main/info/estrela.svg"
+                                            alt="estrelas" />
+                                        <img class="star" src="./img/tela-principal/main/info/estrela.svg"
+                                            alt="estrelas" />
+                                        <img class="star" src="./img/tela-principal/main/info/estrela.svg"
+                                            alt="estrelas" />
+                                    </div>
+                                </div>
+                                <span class="name-filme">Shang-Chi</span>
+                            </div>
+                        </li>
+
+                        <!-- Wish Dragon -->
+                        <li class="catalogo-filme">
+                            <img src="./img/tela-principal/main/filmes/bg-wish-dragon.png"
+                                alt="banner de Wish Dragon" />
+                            <div class="filme-info">
+                                <div class="star-text">
+                                    <span class="text-amarelo">Ação/Suspense</span>
+                                    <div class="g-star">
+                                        <img class="star" src="./img/tela-principal/main/info/estrela.svg"
+                                            alt="estrelas" />
+                                        <img class="star" src="./img/tela-principal/main/info/estrela.svg"
+                                            alt="estrelas" />
+                                        <img class="star" src="./img/tela-principal/main/info/estrela.svg"
+                                            alt="estrelas" />
+                                        <img class="star" src="./img/tela-principal/main/info/estrela.svg"
+                                            alt="estrelas" />
+                                        <img class="star" src="./img/tela-principal/main/info/estrela.svg"
+                                            alt="estrelas" />
+                                    </div>
+                                </div>
+                                <span class="name-filme">Wish Dragon</span>
+                            </div>
+                        </li>
+
+                        <!-- Loki -->
+                        <li class="catalogo-filme">
+                            <img src="./img/tela-principal/main/filmes/bg-loki.png" alt="banner de Loki" />
+                            <div class="filme-info">
+                                <div class="star-text">
+                                    <span class="text-amarelo">Ação/Suspense</span>
+                                    <div class="g-star">
+                                        <img class="star" src="./img/tela-principal/main/info/estrela.svg"
+                                            alt="estrelas" />
+                                        <img class="star" src="./img/tela-principal/main/info/estrela.svg"
+                                            alt="estrelas" />
+                                        <img class="star" src="./img/tela-principal/main/info/estrela.svg"
+                                            alt="estrelas" />
+                                        <img class="star" src="./img/tela-principal/main/info/estrela.svg"
+                                            alt="estrelas" />
+                                        <img class="star" src="./img/tela-principal/main/info/estrela.svg"
+                                            alt="estrelas" />
+                                    </div>
+                                </div>
+                                <span class="name-filme">Loki</span>
+                            </div>
+                        </li>
+
+                        <!-- Spider-man -->
+                        <li class="catalogo-filme">
+                            <img src="./img/tela-principal/main/filmes/bg-spider-man.png"
+                                alt="banner de Spider-Man" />
+                            <div class="filme-info">
+                                <div class="star-text">
+                                    <span class="text-amarelo">Ação/Suspense</span>
+                                    <div class="g-star">
+                                        <img class="star" src="./img/tela-principal/main/info/estrela.svg"
+                                            alt="estrelas" />
+                                        <img class="star" src="./img/tela-principal/main/info/estrela.svg"
+                                            alt="estrelas" />
+                                        <img class="star" src="./img/tela-principal/main/info/estrela.svg"
+                                            alt="estrelas" />
+                                        <img class="star" src="./img/tela-principal/main/info/estrela.svg"
+                                            alt="estrelas" />
+                                        <img class="star" src="./img/tela-principal/main/info/estrela.svg"
+                                            alt="estrelas" />
+                                    </div>
+                                </div>
+                                <span class="name-filme">Spider-Man</span>
+                            </div>
+                        </li>
+
+                        <!-- The Witcher -->
+                        <li class="catalogo-filme">
+                            <img src="./img/tela-principal/main/filmes/bg-the-witche.png"
+                                alt="banner de The Witcher" />
+                            <div class="filme-info">
+                                <div class="star-text">
+                                    <span class="text-amarelo">Ação/Suspense</span>
+                                    <div class="g-star">
+                                        <img class="star" src="./img/tela-principal/main/info/estrela.svg"
+                                            alt="estrelas" />
+                                        <img class="star" src="./img/tela-principal/main/info/estrela.svg"
+                                            alt="estrelas" />
+                                        <img class="star" src="./img/tela-principal/main/info/estrela.svg"
+                                            alt="estrelas" />
+                                        <img class="star" src="./img/tela-principal/main/info/estrela.svg"
+                                            alt="estrelas" />
+                                        <img class="star" src="./img/tela-principal/main/info/estrela.svg"
+                                            alt="estrelas" />
+                                    </div>
+                                </div>
+                                <span class="name-filme">The Witcher</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
     </main>
 
-        <!-- <div class="catalogo-filme">
-            <img src="./img/tela-principal/main/filmes/bg-shang-chi.png" alt="banner de shang-chi">
-            <div class="filme-info">
-                <div class="star-text">
-                    <span class="text-amarelo">Ação/Suspense</span>
-                    <div class="g-star">
-                        <img class="star" src="./img/tela-principal/main/info/estrela.svg" alt="estrelas">
-                        <img class="star" src="./img/tela-principal/main/info/estrela.svg" alt="estrelas">
-                        <img class="star" src="./img/tela-principal/main/info/estrela.svg" alt="estrelas">
-                        <img class="star" src="./img/tela-principal/main/info/estrela.svg" alt="estrelas">
-                        <img class="star" src="./img/tela-principal/main/info/estrela.svg" alt="estrelas">
-                    </div>
-
-                </div>
-                <span class="name-filme">Shang-Chi</span>
-            </div>
-        </div> -->
+    <!-- -->
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./javascript/animation.js"></script>
 </body>
+
 </html>
