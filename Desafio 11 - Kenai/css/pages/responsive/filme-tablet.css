@@ -1,0 +1,53 @@
+@media(max-width: 991px){
+    html{
+        height: 100%;
+        background-image: url(../../../img/tela-principal/bg-tablet.png);
+        background-position: center;
+    }
+
+    .tempo-genero{
+        max-width: 25.8rem;
+        gap: 1.6rem;
+    }
+
+    .container{
+        padding-top: 4.8rem;
+        padding-bottom: 5.6rem;
+        gap: 2.6rem;
+    }
+
+    .text-amarelo, .genero{
+        max-width: 10.3rem;
+        height: 2.4rem;
+        font-size: 1.2rem;
+    }
+
+    .sinopse-btn, .btn-amarelo{
+        max-width: 31.2rem;
+    }
+
+    .sinopse h1{
+        font-size: 4rem;
+    }
+
+    .sinopse p{
+        font-size: 1.6rem;
+    }
+
+    /* organizando os slides */
+    .slide{
+        justify-content: space-between;
+    }
+
+    /* OBJETIVO DE AMANHÃ:
+    02º - Fazer a mesma interatividade do codeboost onde quando eu coloco o mouse por cima aumentasse a escala
+    do filme, porém nas informações iria funcionar da forma inversa, quando estivesse default ficaria a mostra e
+    quando estivesse com o mouse em cima sumisse e aumentasse a escala como foi dito a cima.
+    */
+
+    .text-amarelo, .genero{
+        max-width: 7.1rem;
+        height: 1.5rem;
+        font-size: .8rem;
+    }
+}

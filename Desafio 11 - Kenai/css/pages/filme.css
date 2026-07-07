@@ -39,6 +39,9 @@ html{
 .container{
     padding-top: 8rem;
     padding-bottom: 8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4.8rem;
 }
 
 .container .informacoes{
@@ -46,7 +49,7 @@ html{
     margin-bottom: 9.6rem;
 }
 
-.container .informacoes .tempo-genero{
+.tempo-genero{
     display: flex;
     flex-direction: column;
     gap: 2.4rem;
@@ -61,7 +64,13 @@ html{
 }
 
 .text-amarelo, .genero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
     max-width: 11.7rem;
+    height: 2.7rem;
+    font-size: 1.4rem;
 }
 
 .tempo{
@@ -119,7 +128,7 @@ html{
     color: var(--amarelo);
     background-color: var(--branco);
     border: .2rem solid var(--amarelo);
-    transition: ease-in-out .3s;
+    transition: ease-in-out .2s;
 }
 
 /* MEXENDO COM SLIDES */  
@@ -132,4 +141,8 @@ html{
 .slide{
     display: flex;
     gap: 1.6rem;
+}
+
+.slide a{
+    color: var(--branco);
 }
